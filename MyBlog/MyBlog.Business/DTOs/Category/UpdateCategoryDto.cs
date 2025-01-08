@@ -1,0 +1,26 @@
+﻿using FluentValidation;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MyBlog.Business.DTOs.Category
+{
+    public class UpdateCategoryDto
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
+    public class UpdateCategoryDtoValidator : AbstractValidator<UpdateCategoryDto>
+    {
+        public UpdateCategoryDtoValidator()
+        {
+            RuleFor(x => x.Name)
+            .NotEmpty()
+            .WithMessage("Ad bos olanmaz")
+            .NotNull()
+            .WithMessage("Ad yoxdur");
+        }
+    }
+}

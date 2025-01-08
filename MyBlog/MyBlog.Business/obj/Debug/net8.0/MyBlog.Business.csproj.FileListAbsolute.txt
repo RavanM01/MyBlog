@@ -1,0 +1,17 @@
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\bin\Debug\net8.0\MyBlog.Business.deps.json
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\bin\Debug\net8.0\MyBlog.Business.dll
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\bin\Debug\net8.0\MyBlog.Business.pdb
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\bin\Debug\net8.0\MyBlog.Core.dll
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\bin\Debug\net8.0\MyBlog.DAL.dll
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\bin\Debug\net8.0\MyBlog.DAL.pdb
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\bin\Debug\net8.0\MyBlog.Core.pdb
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\obj\Debug\net8.0\MyBlog.Business.csproj.AssemblyReference.cache
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\obj\Debug\net8.0\MyBlog.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\obj\Debug\net8.0\MyBlog.Business.AssemblyInfoInputs.cache
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\obj\Debug\net8.0\MyBlog.Business.AssemblyInfo.cs
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\obj\Debug\net8.0\MyBlog.Business.csproj.CoreCompileInputs.cache
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\obj\Debug\net8.0\MyBlog.B.1D3221E7.Up2Date
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\obj\Debug\net8.0\MyBlog.Business.dll
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\obj\Debug\net8.0\refint\MyBlog.Business.dll
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\obj\Debug\net8.0\MyBlog.Business.pdb
+C:\Users\meher\source\repos\MyBlog\MyBlog.Business\obj\Debug\net8.0\ref\MyBlog.Business.dll

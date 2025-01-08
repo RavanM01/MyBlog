@@ -1,0 +1,17 @@
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\bin\Debug\net8.0\MyBlog.DAL.deps.json
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\bin\Debug\net8.0\MyBlog.DAL.dll
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\bin\Debug\net8.0\MyBlog.DAL.pdb
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\bin\Debug\net8.0\MyBlog.Core.dll
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\bin\Debug\net8.0\MyBlog.Core.pdb
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\obj\Debug\net8.0\MyBlog.DAL.csproj.AssemblyReference.cache
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\obj\Debug\net8.0\MyBlog.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\obj\Debug\net8.0\MyBlog.DAL.AssemblyInfoInputs.cache
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\obj\Debug\net8.0\MyBlog.DAL.AssemblyInfo.cs
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\obj\Debug\net8.0\MyBlog.DAL.csproj.CoreCompileInputs.cache
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\obj\Debug\net8.0\MyBlog.DAL.csproj.Up2Date
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\obj\Debug\net8.0\MyBlog.DAL.dll
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\obj\Debug\net8.0\refint\MyBlog.DAL.dll
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\obj\Debug\net8.0\MyBlog.DAL.pdb
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\obj\Debug\net8.0\ref\MyBlog.DAL.dll
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\bin\Debug\net8.0\MyBlog.DAL.runtimeconfig.json
+C:\Users\meher\source\repos\MyBlog\MyBlog.DAL\obj\Debug\net8.0\MyBlog.DAL.genruntimeconfig.cache
