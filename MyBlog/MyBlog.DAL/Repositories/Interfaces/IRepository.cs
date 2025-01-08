@@ -13,7 +13,7 @@ namespace MyBlog.DAL.Repositories.Interfaces
     {
         public DbSet<TEntity> Table { get; }
         public Task<TEntity> GetbyId(int id);
-        public IQueryable<TEntity> GetAll();
+        public IQueryable<TEntity> GetAll(params string[] includes);
         public IQueryable<TEntity> FindAll(Expression<Func<TEntity, bool>> expression);
         public Task<TEntity> Create(TEntity entity);
         public void Update(TEntity entity);

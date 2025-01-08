@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyBlog.Business.DTOs.Category;
 using MyBlog.Business.Helpers.Exceptions.Category;
@@ -8,6 +9,7 @@ namespace MyBlog.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CategoriesController : ControllerBase
     {
         readonly ICategoryService _categoryService;
@@ -18,11 +20,11 @@ namespace MyBlog.API.Controllers
         }
 
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
             try
             {
-                return Ok(_categoryService.GetById(id));
+                return Ok(await _categoryService.GetById(id));
             }
             catch (CategoryNullException ex)
             {

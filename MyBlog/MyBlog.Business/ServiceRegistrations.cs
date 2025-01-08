@@ -18,6 +18,7 @@ namespace MyBlog.Business
             services.AddAutoMapper(typeof(ServiceRegistrations));
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IUserService, UserService>();    
+            services.AddScoped<IBlogService, BlogService>();
             services.AddControllers().AddFluentValidation(c => c.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly()));
         }
     }

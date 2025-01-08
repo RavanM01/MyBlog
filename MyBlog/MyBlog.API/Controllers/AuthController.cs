@@ -15,15 +15,28 @@ namespace MyBlog.API.Controllers
         {
             this.userService = userService;
         }
-        [HttpPost]
+        [HttpPost("[action]")]
         public async Task<IActionResult> Register([FromForm] RegisterDto dto)
         {
             try
             {
                 await userService.Register(dto);
-                return Ok();
+                return Ok("Register oldu");
             }
             catch (Exception ex) 
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpPost("[action]")]
+        public async Task<IActionResult> Login([FromForm] LoginDto dto)
+        {
+            try
+            {
+                
+                return Ok(await userService.Login(dto));
+            }
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }

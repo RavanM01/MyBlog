@@ -17,6 +17,8 @@ namespace MyBlog.DAL.Context
             
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<BlogsCategories> BlogsCategories { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

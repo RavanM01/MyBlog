@@ -14,6 +14,7 @@ namespace MyBlog.DAL
         public static void AddDALServices(this IServiceCollection services)
         {
            services.AddScoped<ICategoryRepository,CategoryRepository>();
+           services.AddScoped<IBlogRepository,BlogRepository>();
         }
     }
 }
